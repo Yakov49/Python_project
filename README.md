@@ -6,15 +6,10 @@ Source code: [marketing_kpi_toolkit.py](/marketing_kpi_toolkit.py)
 ## Introduction
 This project combines sessions data (traffic, clicks, spend) with order data (transactions, revenue) to evaluate channel efficiency and pacing. Outputs are saved as CSV and PNG for review and sharing.
 
-## Background
-Built to demonstrate a practical analytics workflow suitable for analytics, marketing, and sales operations: data loading and cleaning, aggregation to Date × Channel, KPI computation, visualisation, and a compact linear fit to interpret marginal ROAS.
-
 ## Tools I used
 - Python 3
 - pandas, numpy, matplotlib, openpyxl
-- Git & GitHub
-- Markdown for documentation
-
+- 
 ## Data
 - **sessions** (daily rows): `Date`, `Channel`, `Sessions`, `Clicks`, `Spend_gbp` (or `Adj_spend_gbp`)
 - **orders** (order-level rows): `Order_id`, `Order_date`, `Revenue_gbp`, `Channel_ft` (or `Channel`)
