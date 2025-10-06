@@ -9,7 +9,7 @@ This project combines sessions data (traffic, clicks, spend) with order data (tr
 ## Tools I used
 - Python 3
 - pandas, numpy, matplotlib, openpyxl
-- 
+  
 ## Data
 - **sessions** (daily rows): `Date`, `Channel`, `Sessions`, `Clicks`, `Spend_gbp` (or `Adj_spend_gbp`)
 - **orders** (order-level rows): `Order_id`, `Order_date`, `Revenue_gbp`, `Channel_ft` (or `Channel`)
