@@ -58,13 +58,13 @@ a, b, _ = simple_response_curve(daily, "outputs")  # b ≈ marginal ROAS
 ```
 ### Generated files (outputs/)
 
-channel_kpis.csv
+`channel_kpis.csv`
 
-roas_by_channel.png
+`roas_by_channel.png`
 
-revenue_vs_spend_over_time.png
+`revenue_vs_spend_over_time.png`
 
-revenue_vs_spend_fit.png
+`revenue_vs_spend_fit.png`
 
 ## Visuals
 
