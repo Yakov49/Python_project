@@ -58,13 +58,10 @@ a, b, _ = simple_response_curve(daily, "outputs")  # b ≈ marginal ROAS
 
 ```python marketing_kpi_toolkit.py --xlsx excel_project.xlsx --out outputs```
 
-`channel_kpis.csv`
-
-`roas_by_channel.png`
-
-`revenue_vs_spend_over_time.png`
-
-`revenue_vs_spend_fit.png`
+- outputs/channel_kpis.csv
+- outputs/roas_by_channel.png
+- outputs/revenue_vs_spend_over_time.png
+- outputs/revenue_vs_spend_fit.png
 
 ## Visuals
 
@@ -83,5 +80,4 @@ On this dataset, the linear model returned:
 
 **Revenue ≈ 2647.48 + 3.634 · Spend**
 
-
-The slope indicates an estimated marginal ROAS ≈ 3.63 (≈£3.63 incremental revenue per additional £1 of spend over the observed range). 
+The slope indicates an estimated marginal ROAS ≈ 3.63 (≈£3.63 incremental revenue per additional £1 of spend over the observed range).
