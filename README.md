@@ -45,7 +45,7 @@ from marketing_kpi_toolkit import compute_daily_channel_kpis, channel_summary
 daily = compute_daily_channel_kpis(sessions, orders)   # Date × Channel
 chan  = channel_summary(daily)                         # channel totals + KPIs
 ```
-##3) Charts and outputs
+## 3) Charts and outputs
 
 ```
 from marketing_kpi_toolkit import (
