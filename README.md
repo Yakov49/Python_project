@@ -16,16 +16,6 @@ This project combines sessions data (traffic, clicks, spend) with order data (tr
 
 Dates are parsed to calendar dates; numeric fields are coerced to numbers. If both adjusted and raw spend exist, adjusted spend is used for KPIs.
 
-## Project structure
-├─ marketing_kpi_toolkit.py
-├─ README.md
-├─ python_images/
-│ ├─ roas_by_channel.png
-│ ├─ revenue_vs_spend_over_time.png
-│ └─ revenue_vs_spend_fit.png
-└─ (excel_project.xlsx not committed)
-
-
 ## How it works
 
 ### 1) Load and clean
