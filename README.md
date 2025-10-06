@@ -29,15 +29,13 @@ orders   = clean_orders(orders_raw)
 
 ### 2) Aggregate and compute KPIs
 
-CVR = Orders / Clicks
-
-CPC = Spend / Clicks
-
-CAC = Spend / Orders
-
-AOV = Revenue / Orders
-
-ROAS = Revenue / Spend
+| KPI  | Formula            |
+|------|--------------------|
+| CVR  | Orders / Clicks    |
+| CPC  | Spend / Clicks     |
+| CAC  | Spend / Orders     |
+| AOV  | Revenue / Orders   |
+| ROAS | Revenue / Spend    |
 
 ```
 from marketing_kpi_toolkit import compute_daily_channel_kpis, channel_summary
