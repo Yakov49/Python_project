@@ -45,8 +45,6 @@ chan  = channel_summary(daily)                         # channel totals + KPIs
 ```
 ## 3) Charts and outputs
 
-`python marketing_kpi_toolkit.py --xlsx excel_project.xlsx --out outputs`
-
 ```
 from marketing_kpi_toolkit import (
     plot_roas_by_channel, plot_revenue_vs_spend_over_time, simple_response_curve
@@ -57,6 +55,8 @@ plot_revenue_vs_spend_over_time(daily, "outputs")
 a, b, _ = simple_response_curve(daily, "outputs")  # b ≈ marginal ROAS
 ```
 ### Generated files (outputs/)
+
+```python marketing_kpi_toolkit.py --xlsx excel_project.xlsx --out outputs```
 
 `channel_kpis.csv`
 
